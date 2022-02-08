@@ -1,0 +1,26 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "client_hooks": {
+        "postAceInit": "md_font_family/static/js/index",
+        "aceRegisterBlockElements": "md_font_family/static/js/index",
+        "aceAttribsToClasses": "md_font_family/static/js/index",
+        "aceAttribClasses":"md_font_family/static/js/index",
+        "collectContentPre": "md_font_family/static/js/shared",
+        "collectContentPost": "md_font_family/static/js/shared",
+        "aceEditEvent": "md_font_family/static/js/index",
+        "aceEditorCSS": "md_font_family/static/js/index"
+      },
+      "hooks": {
+        "eejsBlock_editbarMenuLeft": "md_font_family/index",
+        "collectContentPre": "md_font_family/static/js/shared",
+        "collectContentPost": "md_font_family/static/js/shared",
+        "eejsBlock_dd_format":"md_font_family/index",
+        "aceAttribClasses":"md_font_family/index",
+        "exportHtmlAdditionalTags" : "md_font_family/index",
+        "getLineHTMLForExport": "md_font_family/index"
+      }
+    }
+  ]
+}
